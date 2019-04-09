@@ -10,6 +10,9 @@ import com.example.administrator.mvpdemo.mvp.LoginContract;
 import com.example.administrator.mvpdemo.mvp.LoginPresenter;
 
 /**
+ * V层实现
+ * <p>
+ * 测试用户名密码：
  * username:testxx
  * password:123123123
  */

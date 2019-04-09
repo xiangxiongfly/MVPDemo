@@ -9,6 +9,9 @@ import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
+/**
+ * P层实现
+ */
 public class LoginPresenter extends BasePresenter<LoginContract.View> implements LoginContract.Presenter {
     private LoginContract.Model model;
     private final CompositeDisposable mDisposable;
